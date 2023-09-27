@@ -1,0 +1,45 @@
+** Evaluating the Correlation between Educational Level and Unemployment Rate at the Regional Level**
+
+**1. Objective:**
+Determine whether there's a correlation between the population's educational level and the unemployment rate across different regions of the country.
+
+**2. Data Sources:**
+- Data on the educational level of the population by regions (Let's assume this table is named `EducationLevels`).
+- Data on the unemployment rate by regions (Let's assume this table is named `UnemploymentRate`).
+
+**3. Procedure:**
+
+**a. Data Retrieval and Cleaning:**
+At this stage, you'll likely need to clean and transform the data to make it usable. For instance, converting text strings to numbers, filling in or removing null values, etc.
+
+**b. Data Integration using SQL:**
+Assuming both tables are in an SQL database, you can JOIN both tables using an SQL query to obtain a single table with the required information.
+
+```sql
+SELECT 
+    E.region,
+    E.percent_higher_education,
+    U.unemployment_rate
+FROM
+    EducationLevels E
+JOIN
+    UnemploymentRate U ON E.region = U.region;
+```
+
+**c. Statistical Analysis:**
+Use data analysis software (like Python with pandas and scipy, or R) to:
+- Calculate descriptive statistics (mean, median, standard deviation, etc.).
+- Determine the correlation between the percentage of the population with higher education and the unemployment rate.
+- Perform a linear regression to assess the relationship between both variables.
+
+**d. Visualization:**
+Create charts that display:
+- The distribution of the educational level across regions.
+- The distribution of the unemployment rate across regions.
+- A scatter plot showcasing the relationship between the educational level and unemployment rate, including the regression line.
+
+**e. Conclusions:**
+- Is there a significant correlation between educational level and the unemployment rate?
+- How does this relationship vary across different regions?
+
+This analysis is just a suggestion and it's likely that upon accessing the real data you might need to make adjustments based on the characteristics and limitations of the data. Best of luck with your analysis!
