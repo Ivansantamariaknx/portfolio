@@ -1,0 +1,7 @@
+To dos:
+
+Check Nas 
+Check duplicated rows
+Outliers
+Describe 
+Info 
