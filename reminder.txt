@@ -5,3 +5,30 @@ Check duplicated rows
 Outliers
 Describe 
 Info 
+
+Useful:
+df.nunique()
+(df.isnull().sum()/df.shape[0])*100
+#For visualizing all variables:
+r=4
+c=8
+it=1
+for i in df.columns:
+    plt.suptitle("Visualizing all the variables")
+    plt.subplot(r,c,it)
+    if df[i].dtype=='object':
+        sns.countplot(x=df[i])
+    else:
+        sns.kdeplot(df[i])
+        plt.grid()
+    it+=1
+plt.tight_layout()
+plt.show()
+
+#extracting object columns
+df.select_dtypes(include='object').nunique()
+
+#get dummies
+
+df = pd.get_dummies(df,columns=['BusinessTravel','Department','Gender','MaritalStatus'],drop_first=True)
+df.head()
