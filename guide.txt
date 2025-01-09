@@ -1,0 +1,74 @@
+
+-Description and deliverables
+-Pace stages:
+1 Plan (understand the problem) 
+2 Analyze (EDA, check model assumptions), 
+3 Construct and evaluate model
+4 Execute (interpret model and share story)
+
+-PLAN STAGE:
+xUnderstanding the business scenario and problem
+xFamiliarize yourself with the HR dataset
+xPlan Stage Reflections:
+Who are your stakeholders for this project?
+What are you trying to solve or accomplish?
+What are your initial observations when you explore the data?
+What resources do you find yourself using as you complete this stage? (Make sure to include the links.)
+Do you have any ethical considerations in this stage?
+-ANALYZE
+EDA: wonder this:
+What do you observe about the distributions in the data?
+What transformations did you make with your data? Why did you chose to make those decisions?
+What are some purposes of EDA before constructing a predictive model?
+What resources do you find yourself using as you complete this stage? (Make sure to include the links.)
+Do you have any ethical considerations in this stage?
+CONSTRUCT
+Determine which models are most appropriate
+Construct the model
+Confirm model assumptions
+Evaluate model results to determine how well your model fits the data
+
+ Reflect on these questions as you complete the constructing stage.
+-Do you notice anything odd?
+Which independent variables did you choose for the model and why?
+Are each of the assumptions met?
+How well does your model fit the data?
+Can you improve it? Is there anything you would change about the model?
+What resources do you find yourself using as you complete this stage? (Make sure to include the links.)
+Do you have any ethical considerations in this stage?
+
+Step 3. Model Building, Step 4. Results and Evaluation
+
+Fit a model that predicts the outcome variable using two or more independent variables
+Check model assumptions
+Evaluate the model
+Identify the type of prediction task.
+Your goal is to predict whether an employee leaves the company, which is a categorical outcome variable. So this task involves classification. More specifically, this involves binary classification, since the outcome variable left can be either 1 (indicating employee left) or 0 (indicating employee didn't leave).
+
+Identify the types of models most appropriate for this task.
+Since the variable you want to predict (whether an employee leaves the company) is categorical, you could either build a Logistic Regression model, or a Tree-based Machine Learning model.
+
+So you could proceed with one of the two following approaches. Or, if you'd like, you could implement both and determine how they compare.
+
+Reflect on these questions as you complete the executing stage.
+What key insights emerged from your model(s)?
+What business recommendations do you propose based on the models built?
+What potential recommendations would you make to your manager/company?
+Do you think your model could be improved? Why or why not? How?
+Given what you know about the data and the models you were using, what other questions could you address for the team?
+What resources do you find yourself using as you complete this stage? (Make sure to include the links.)
+Do you have any ethical considerations in this stage?
+
+Step 4. Results and Evaluation
+Interpret model
+Evaluate model performance using metrics
+Prepare results, visualizations, and actionable steps to share with stakeholders
+
+Summary of model results
+Logistic Regression
+
+The logistic regression model achieved precision of 80%, recall of 83%, f1-score of 80% (all weighted averages), and accuracy of 83%, on the test set.
+
+Tree-based Machine Learning
+
+After conducting feature engineering, the decision tree model achieved AUC of 93.8%, precision of 87.0%, recall of 90.4%, f1-score of 88.7%, and accuracy of 96.2%, on the test set. The random forest modestly outperformed the decision tree model.
