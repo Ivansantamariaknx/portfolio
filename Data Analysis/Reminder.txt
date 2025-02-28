@@ -1,0 +1,5 @@
+Data collection
+Cleaning
+Processing
+Analysis
+Visualization

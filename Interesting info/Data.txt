@@ -1,0 +1,16 @@
+Common Data Analytics Techniques
+
+Regression analysis. It is a statistical data analytics method that focuses on correlations and connections between different variables.
+Factor analysis. The factor analysis helps the data analyst to spot a defensible structure or pattern underlying a specific data set. 
+Cohort analysis. It is the technique used to understand data grouping by certain characteristics.
+Cluster analysis. Cluster analysis helps analysts verify that the variables in one group resemble each other more than the variables present in other groups.
+Time series analysis. Time series analysis forecasts the future pattern or behavior of data that can be easily organized over a certain period, like stock market prices.
+Text analytics. Also known as text mining, text analytics helps analysts find specific patterns or information during the analysis of emails, open-ended survey responses, or websites.
+
+
+Data quality issues:
+Outliers
+Inconsistency (best estimate)
+Missing values (remove)
+Noise
+Duplicates  (merge)
