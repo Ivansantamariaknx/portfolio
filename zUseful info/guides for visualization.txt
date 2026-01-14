@@ -1,0 +1,3 @@
+https://okanbulut.github.io/bigdata/visualizing-big-data.html#interactive-plots-with-plotly
+https://matplotlib.org/stable/users/explain/figure/interactive.html
+https://plotly.com/python/pie-charts/
